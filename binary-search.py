@@ -48,7 +48,6 @@ def binary_search(arr, low, high, x):
         # Element is not present in the array
         return -1
     
-
 def binary_search_iter(arr, x):
     low = 0
     high = len(arr) - 1
